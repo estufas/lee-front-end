@@ -4,18 +4,24 @@
   <meta charset="UTF-8">
   <title>title</title>
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js" type="text/javascript"></script>
+  <script src="script.js"></script>
  </head>
- <body>
-  <form id="usrform">
-  Name: <input type="text" id="usrname">
-    <input type="submit">
-  </form>
-  <br>
-  <textarea rows="4" cols="50" id="comment" form="usrform">
-    Enter text here...
-  </textarea>
-  <p id="user_submission"></p>
+  <body>
+    <header>
+      <p> Have you heard that new </br> Fetty Wap? </p>
+    </header>
+    <img src="http://cdn1.bloguin.com/wp-content/uploads/sites/85/2013/07/batmanreturnsthepenguin.jpg" alt="Smiley face" height="60%" width="60%" id="joe">
+    <form id="usrform">
+      Name: <input type="text" id="usrname">
+      <input type="submit" id="thbutton">
+      <br>
+      <textarea rows="4" cols="50" id="comment" form="usrform">
+        Enter text here...
+      </textarea>
+    </form>
+    <div id="submissions">
+    </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
- </body>
+  </body>
 </html>
